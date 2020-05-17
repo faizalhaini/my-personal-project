@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>HTML Table</title>
+    <style>
+        table, th, td
+        {
+          border: 1px solid black; 
+          border-collapse: collapse; 
+        }
+
+        th, td
+        {
+            padding:5px;
+        }
+
+        th
+        {
+            text-align: left;
+        }
+
+    </style>
+    </head>
+<body>
+<table style= "width: 100%;">
+    <caption>This is a sample table</caption>
+    <tr>
+        <th>Name</th>
+        <th>Matrix No</th>
+        <th>Group</th>
+    </tr>
+    <tr>
+        <td>Faizal Haini</td>
+        <td>288978</td>
+        <td>FPM Academics</td>
+    </tr>
+    <tr>
+        <td>Haini Faizal</td>
+        <td>277878</td>
+        <td>FPM Academics</td>
+    </tr>
+</table>
+
+<table style="width: 100%;">
+    <caption>Table with col span</caption>
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Favourite Subjects</th>
+    </tr>
+    <tr>
+        <td>Faizal Haini</td>
+        <td>Web Design</td>
+        <td>System Analyst</td>
+    </tr>
+</table>
+<table style="width: 100%;">
+    <caption>Table with row span</caption>
+    <tr>
+        <th>Name</th>
+        <th>Faizal Haini</th>
+    </tr>
+    <tr>
+        <th rowspan="2">email</th>
+        <td>faizal@faizalhaini.com</td>
+    </tr>
+    <tr>
+        <td>faizalhaini@faizal.com</td>
+    </tr>
+
+
+
+</table>
+
+
+</body>
+</html>
