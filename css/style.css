@@ -2,3 +2,10 @@ body
     {
         background-color:chocolate;
     }
+
+p
+    {
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        color: honeydew;
+    }
